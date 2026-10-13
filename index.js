@@ -1,17 +1,17 @@
 // Write your solution in this file!
-let burgers = ["Hamburger", "Cheeseburger"];
+const burgers = ["Hamburger", "Cheeseburger"];
 
 let featuredDrink = "Strawberry Milkshake";
 
 function addBurger() {
-    let newBurger = "Flatburger";
+    const newBurger = "Flatburger";
 burgers.push(newBurger);
 }
   addBurger()
 console.log(burgers);
 
 if (true) {
-  let anotherNewBurger = 'Maple Bacon Burger';
+  const anotherNewBurger = 'Maple Bacon Burger';
   burgers.push(anotherNewBurger);
 }
 console.log(burgers)
