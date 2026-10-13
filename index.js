@@ -7,8 +7,8 @@ function addBurger() {
     const newBurger = "Flatburger";
 burgers.push(newBurger);
 }
-  addBurger()
-console.log(burgers);
+ // addBurger()
+//console.log(burgers);
 
 if (true) {
   const anotherNewBurger = 'Maple Bacon Burger';
